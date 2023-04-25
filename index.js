@@ -1,3 +1,7 @@
+// import { colorhex } from '@testgrandma/shortcuts';
+// import
+import chalk from 'chalk';
+
 function square() {
   for (let i = 0; i < 3; i++) {
     // Runs 3 times, with values of step 0 through 4.
@@ -22,8 +26,6 @@ function square() {
 
   return;
 }
-console.log();
-console.log();
 
 //this output logs a 31x9 box which is colored in any random color
 console.log('\n');
@@ -34,6 +36,10 @@ square();
 console.log('\n');
 console.log('box colored in a different shade of the random color');
 square();
+
+console.log(chalk.hex('#DEADED').underline('Hello, world!'));
+// colorhex(ff0000);
+// console.log(chalk.hex('#DEADED')('Bold gray!'));
 
 /* for (i=0 , i < 3) {
   console.log('###############################');
