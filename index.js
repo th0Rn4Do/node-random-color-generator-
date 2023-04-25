@@ -1,27 +1,28 @@
 // import { colorhex } from '@testgrandma/shortcuts';
 // import
+
 import chalk from 'chalk';
 
 function square() {
   for (let i = 0; i < 3; i++) {
     // Runs 3 times, with values of step 0 through 4.
-    console.log('###############################');
+    console.log(chalk.hex('#FF0000')('###############################'));
   }
   for (let i = 0; i < 1; i++) {
     // Runs 1 time, with values of step 0 through 4.
-    console.log('#####                     #####');
+    console.log(chalk.hex('#FF0000')('#####                     #####'));
   }
   for (let i = 0; i < 1; i++) {
     // Runs 1 times, with values of step 0 through 4.
-    console.log('#####       #ff0000       #####');
+    console.log(chalk.hex('#FF0000')('#####       #ff0000       #####'));
   }
   for (let i = 0; i < 1; i++) {
     // Runs 1 times, with values of step 0 through 4.
-    console.log('#####                     #####');
+    console.log(chalk.hex('#FF0000')('#####                     #####'));
   }
   for (let i = 0; i < 3; i++) {
     // Runs 3 times, with values of step 0 through 4.
-    console.log('###############################');
+    console.log(chalk.hex('#FF0000')('###############################'));
   }
 
   return;
@@ -37,7 +38,7 @@ console.log('\n');
 console.log('box colored in a different shade of the random color');
 square();
 
-console.log(chalk.hex('#DEADED').underline('Hello, world!'));
+// console.log(chalk.hex('#DEADED').underline('Hello, world!'));
 // colorhex(ff0000);
 // console.log(chalk.hex('#DEADED')('Bold gray!'));
 
