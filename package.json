@@ -13,5 +13,9 @@
   "devDependencies": {
     "eslint-config-upleveled": "^4.1.8",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@testgrandma/shortcuts": "^0.0.5",
+    "chalk": "^5.2.0"
   }
 }

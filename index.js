@@ -22,12 +22,17 @@ function square() {
 
   return;
 }
+console.log();
+console.log();
+
 //this output logs a 31x9 box which is colored in any random color
-console.log('\n box colored in a random color');
+console.log('\n');
+console.log('box colored in a random color');
 square();
 
 //this output logs a 31x9 box which is colored in different shade of the random color above
-console.log('\n box colored in different shade of the random color');
+console.log('\n');
+console.log('box colored in a different shade of the random color');
 square();
 
 /* for (i=0 , i < 3) {
