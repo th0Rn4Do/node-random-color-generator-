@@ -17,7 +17,9 @@ function square() {
   }
   for (let i = 0; i < 1; i++) {
     // Runs 1 time, with values of step 0 through 2.
-    console.log(chalk.hex(generatedColor)('#####       #ff0000       #####'));
+    console.log(
+      chalk.hex(generatedColor)(`#####       ${generatedColor}       #####`),
+    );
   }
   for (let i = 0; i < 1; i++) {
     // Runs 1 time, with value of step 0.
