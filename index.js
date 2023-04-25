@@ -58,9 +58,11 @@ function squareSpecifiedByUser(x) {
   return;
 }
 
+console.log(process.argv[2]);
+
 let colorSpecifiedByUser = randomColor({
-  luminosity: 'dark',
-  hue: 'green',
+  luminosity: process.argv[2],
+  hue: process.argv[3],
 });
 
 //this output logs a 31x9 box which is colored in any random color
