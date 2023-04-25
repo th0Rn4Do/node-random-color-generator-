@@ -2,27 +2,30 @@
 // import
 
 import chalk from 'chalk';
+import randomColor from 'randomcolor';
+
+const generatedColor = randomColor();
 
 function square() {
   for (let i = 0; i < 3; i++) {
-    // Runs 3 times, with values of step 0 through 4.
-    console.log(chalk.hex('#FF0000')('###############################'));
+    // Runs 3 times, with values of step 0 through 2.
+    console.log(chalk.hex(generatedColor)('###############################'));
   }
   for (let i = 0; i < 1; i++) {
-    // Runs 1 time, with values of step 0 through 4.
-    console.log(chalk.hex('#FF0000')('#####                     #####'));
+    // Runs 1 time, with value of step 0.
+    console.log(chalk.hex(generatedColor)('#####                     #####'));
   }
   for (let i = 0; i < 1; i++) {
-    // Runs 1 times, with values of step 0 through 4.
-    console.log(chalk.hex('#FF0000')('#####       #ff0000       #####'));
+    // Runs 1 time, with values of step 0 through 2.
+    console.log(chalk.hex(generatedColor)('#####       #ff0000       #####'));
   }
   for (let i = 0; i < 1; i++) {
-    // Runs 1 times, with values of step 0 through 4.
-    console.log(chalk.hex('#FF0000')('#####                     #####'));
+    // Runs 1 time, with value of step 0.
+    console.log(chalk.hex(generatedColor)('#####                     #####'));
   }
   for (let i = 0; i < 3; i++) {
-    // Runs 3 times, with values of step 0 through 4.
-    console.log(chalk.hex('#FF0000')('###############################'));
+    // Runs 3 times, with values of step 0 through 2.
+    console.log(chalk.hex(generatedColor)('###############################'));
   }
 
   return;
