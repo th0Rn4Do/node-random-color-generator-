@@ -1,6 +1,3 @@
-// import { colorhex } from '@testgrandma/shortcuts';
-// import
-
 import chalk from 'chalk';
 import randomColor from 'randomcolor';
 
@@ -75,25 +72,5 @@ console.log('\n');
 console.log(
   'box colored in a different shade of the color specifed by user input',
 );
+
 squareSpecifiedByUser(colorSpecifiedByUser);
-
-// console.log(chalk.hex('#DEADED').underline('Hello, world!'));
-// colorhex(ff0000);
-// console.log(chalk.hex('#DEADED')('Bold gray!'));
-
-/* for (i=0 , i < 3) {
-  console.log('###############################');
-  i++;
-}
-
-console.log('
-  ###############################
-  ###############################
-  ###############################
-  #####                     #####
-  #####       #ff0000       #####
-  #####                     #####
-  ###############################
-  ###############################
-  ###############################
-  ');*/
